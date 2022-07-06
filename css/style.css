@@ -78,6 +78,7 @@ section {
         width: 100%;
     }
 }
+
 @media (max-width:768px) {
 
     .col-md-6 {
@@ -92,7 +93,6 @@ section {
     display: table;
     clear: both;
 }
-
 
 .container,
 .container-fluid,
@@ -252,7 +252,6 @@ section {
 
 /* about me  */
 
-.about {}
 
 .about .data {
     margin-top: 206px
@@ -432,7 +431,8 @@ section {
     border: none;
     animation: glowing 1500ms infinite;
 }
-.btn-subscribe{
+
+.btn-subscribe {
     color: white;
     background: orange;
     border: none;
@@ -528,4 +528,53 @@ select {
 
 .text-orange {
     color: orange;
+}
+
+
+.donation-title {
+    color: #575757;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.donation2-data {
+    margin-left: 130px;
+}
+
+.donation2-image {
+    width: 67%;
+    padding: 60px 20px 20px 20px;
+}
+
+.subscribe-data {
+    margin: 25px auto;
+}
+
+.ml-44 {
+    margin-left: 44px;
+}
+
+.bg-white {
+    background: #f3f3f3;
+}
+
+.about img {
+    width: 67%;
+    padding: 60px 20px 20px 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: orange;
+}
+
+.donate-input .others {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    text-align: center;
+}
+
+.donate-input .input-data {
+    margin: 32px auto;
 }
